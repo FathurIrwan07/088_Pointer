@@ -5,14 +5,14 @@ using namespace std;
 class pelajar;
 
 class manusia {
-public :
+public:
 	void showNilaiPelajar(pelajar&);
 };
 
 class pelajar {
-private :
+private:
 	int nilai;
-public :
+public:
 	pelajar() {
 		nilai = 100;
 	}
